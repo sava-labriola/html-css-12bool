@@ -1,0 +1,29 @@
+[class*="col-"] {
+    height: 150px;
+    background-color: yellow;
+    float: left;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.col-1 {
+    width: calc(100% / 12);
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
